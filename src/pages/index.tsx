@@ -10,10 +10,10 @@ const Home: NextPageWithLayout = () => {
       <h1 className={styles.title}>Welcome to Example App</h1>
 
       <div className={styles.grid}>
-        <Link href="/todos">
+        <Link href="/posts">
           <a className={styles.card}>
-            <h2>Todos &rarr;</h2>
-            <p>Show todo items.</p>
+            <h2>Posts &rarr;</h2>
+            <p>Show post items.</p>
           </a>
         </Link>
       </div>
