@@ -5,8 +5,6 @@ build:
     build:
       - yarn install --frozen-lockfile
       - yarn build
-    post-build:
-      - node node_modules/ejs/postinstall.js
   env:
     - name: TEST
       value: 'Environment Variables for Server'
