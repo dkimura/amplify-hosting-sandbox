@@ -7,6 +7,8 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Post[]>
 ) {
+  console.log(process.env.TEST)
+
   const posts = Array.from({ length: 30 }).map((_, index) => {
     const id = uuid()
 

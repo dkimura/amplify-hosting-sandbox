@@ -9,6 +9,10 @@ const Home: NextPageWithLayout = () => {
     <>
       <h1 className={styles.title}>Welcome to Example App</h1>
 
+      <ul>
+        <li>{process.env.NEXT_PUBLIC_TEST}</li>
+      </ul>
+
       <div className={styles.grid}>
         <Link href="/posts">
           <a className={styles.card}>
